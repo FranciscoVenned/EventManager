@@ -1,0 +1,69 @@
+#
+#  EVENT MANAGER PLUGIN BY VENNED
+#
+#
+# SET WORLD AND CENTER
+
+worldName: "world"
+centerX: 1024
+centerY: 100
+centerZ: 1024
+
+# STARTING
+Min_Team_Start_Game: 2
+Initial-Delay-Border: 1 # The time of the first storm in hours
+
+# GAME RADIUS LIMIT
+
+gameRadius: 700
+
+#
+# MODIFICATIONS WORLD BORDER
+#
+
+Size: 1500 # Size world border
+initialSize: 1000 # Initial Size
+shrinkAmount: 50 # How much will it be reduced
+interval-seconds: 60 # Interval in Seconds for Task
+phase-interval-seconds: 120 #Interval in Seconds for Phase
+
+# SET AREAS AND PHASE
+
+areas:
+  Forest:
+    phase: 2
+    pos1: 892,63,1061
+    pos2: 904, 72,1049
+  Ice:
+    phase: 5
+    pos1: 639,63,613
+    pos2: 655,72,592
+
+
+#
+# SCOREBOARD SETTINGS AND SETTING
+#
+
+score-title: "Pepito"
+
+scoreboard:
+  - " "
+  - "&cTeams"
+  - "&c Total %teams_size%"
+  - "&d Phase %phase_current%"
+  - "&d Phase Next %phase_nextTime%"
+  - "&c Border Time %border_time%"
+
+# The limit is 6 lines
+
+Phases_Titles:
+  "1":
+    - " &C&l PHASE 1"
+    - " &dThe jungle area was opened at the coordinates"
+    - " x 500 y 50 z 600"
+    - " &c RUN GUYS"
+    - " x 500 y 50 z 600"
+    - " &c RUN GUYS"
+  "2":
+    - "Phase2"
+    - "Phase22P"

@@ -1,0 +1,14 @@
+name: EventManager
+version: '${project.version}'
+main: com.venned.eventmanager.Main
+api-version: '1.20'
+depend:
+  - PlaceholderAPI
+commands:
+  startgame:
+  accept:
+    usage: accept team
+  invite:
+    usage: Invite Player
+
+
